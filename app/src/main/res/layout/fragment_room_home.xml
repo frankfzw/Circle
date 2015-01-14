@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2" >
+
+    <LinearLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:paddingRight="2dp"
+        android:paddingBottom="4dp"
+        android:background="#c3e2f4" >
+
+        <EditText
+            android:id="@+id/et_sendmessage"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="4dp"
+            android:layout_centerVertical="true"
+            android:maxLines="5"/>
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_weight="4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="2dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/chat_send_button"
+            android:text="发送" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/rl_bottom"
+        android:fadingEdge="none"
+        android:divider="@null"
+        android:dividerHeight="2dp"
+        android:scrollbars="none" >
+    </ListView>
+
+
+</RelativeLayout>

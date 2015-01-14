@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RoomActivity">
+
+    <item android:id="@+id/action_new_room"
+        android:icon="@drawable/ic_action_room"
+        android:title="@string/action_new_room"
+        android:showAsAction="always" />
+
+</menu>

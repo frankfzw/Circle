@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Name && Activity Label -->
+    <string name="app_name">Circle beta1</string>
+    <string name="app_title">Circle</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="action_new_room">Create Room</string>
+    <string name="action_exit">Exit</string>
+    
+    <string name="title_activity_room_member">RoomMemberActivity</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_side_menu">SideMenuActivity</string>
+    <string name="title_activity_link">LinkActivity</string>
+    <string name="title_activity_new_user">Welcome, New User!</string>
+    
+    <string name="welcome_title">欢迎使用 CIRCLE</string>
+    <string name="first_use">初次使用</string>
+    <string name="name_label">请输入昵称</string>
+    <string name="name_hint">不起一个炫酷的名字吗？</string>
+    <string name="OK">确 定</string>
+    <string name="search_room">搜 索 房 间</string>
+    
+    <string name="room_prefix">SSID: </string>
+    <string name="hint_room">here for name</string>
+    <string name="hint_password">here for password</string>
+
+    <string-array name="nav_drawer_items">
+        <item>主 页</item>
+        <item>成 员</item>
+        <item>活 动</item>
+        <item>文 件</item>
+        <item>关 于</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+    </array>
+    
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+	
+    <string name="title">title</string>
+    <string name="add_new_act">添加活动</string>
+    <string name="zero">0</string>
+    <string name="title_activity_new_act">NewActActivity</string>
+    <string name="newtitle">活动名称</string>
+    <string name="newdes">活动描述</string>
+  	<string name="seltype">选择活动类型</string>
+  	<string name="titlehint">输入活动的名称</string>
+  	<string name="deshint">输入活动的内容</string>
+  	<string name="typeinfo">活动类型</string>
+  	<string name="buttonhintok">OK</string>
+	<string-array name="ActType">
+	    <item >签到</item>
+	    <item >投票</item>
+	    <item >特别活动</item>
+	</string-array>
+	<string name="file_des">File_name</string>
+    <string-array name="user_chat_names">
+        <item>海胆</item>
+        <item>刺猬</item>
+        <item>河马</item>
+        <item>海鸥</item>
+        <item>橘子</item>
+    </string-array>
+    <string-array name="user_chat_signs">
+        <item>我是一只海胆</item>
+        <item>我是一只刺猬</item>
+        <item>我是一只河马</item>
+        <item>我是一只海鸥</item>
+        <item>我是一只橘子</item>
+    </string-array>
+    <array name="user_chat_avatars">
+        <item>@drawable/user_avatar_0</item>
+        <item>@drawable/user_avatar_1</item>
+        <item>@drawable/user_avatar_2</item>
+        <item>@drawable/user_avatar_3</item>
+        <item>@drawable/user_avatar_4</item>
+    </array>
+
+    <string name="about">ABOUT CIRCLE</string>
+    <string name="aboutContent">Circle Ad-Hoc Circle Ad-Hoc Circle Ad-Hoc Circle Ad-Hoc Circle Ad-Hoc</string>
+    
+</resources>
